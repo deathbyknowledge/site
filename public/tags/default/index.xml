@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>default on dbk&#39;s blog</title>
+    <link>http://dbk.wtf/tags/default/</link>
+    <description>Recent content in default on dbk&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Nov 2022 16:52:29 +0100</lastBuildDate><atom:link href="http://dbk.wtf/tags/default/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>http://dbk.wtf/posts/2022-11-29-introduction/</link>
+      <pubDate>Tue, 29 Nov 2022 16:52:29 +0100</pubDate>
+      
+      <guid>http://dbk.wtf/posts/2022-11-29-introduction/</guid>
+      <description>Introduction Greetings traveler! I&amp;rsquo;m deathbyknowledge aka dbk, a software engineer going down the infosec rabbit-hole.
+What can you find here, you ask? Before I get into that, have I told you I&amp;rsquo;m socially awkward when it comes to putting stuff on the internet? No? Well, bet your ass I am. I&amp;rsquo;ve never gone as far as tweeting something or uploading something on instagram. My reasoning has always been something between the lines of &amp;ldquo;Who tf cares about what I have to say?</description>
+    </item>
+    
+  </channel>
+</rss>
