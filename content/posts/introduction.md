@@ -12,7 +12,7 @@ Greetings traveler! I'm deathbyknowledge **aka** dbk, a software engineer going 
 
 ## *What can you find here, you ask?*
 
-Before I get into that, have I told you I'm socially awkward when it comes to putting stuff on the internet? No? Well, bet your ass I am. I've never gone as far as tweeting something or uploading something on instagram. My reasoning has always been something between the lines of "Who tf cares about what I have to say?" or "No one is going to see it anyway". Don't get me wrong, I don't want you to feel pity. I truly don't ~~give a fuck~~ care.
+Before I get into that, have I told you I'm socially awkward when it comes to putting stuff on the internet? No? Well, bet your ass I am. I've never tweeted a single line nor uploaded a picture on instagram. My reasoning has always been something between the lines of "Who tf cares about what I have to say?" or "No one is going to see it anyway". Don't get me wrong, I don't want you to feel pity. I truly don't ~~give a fuck~~ care.
 
 **BUT HERE WE ARE!!**
 Yes yes, I know what I just said but I also mentioned the magical place of _infosec_. Everytime I'm trying a new HTB box, learning a new tool, implementing some paper or just playing on my own there's **always** someone's blog (known or unknown) that comes in handy. Be it to get the grasp of a new concept or completing some challenge, someone in the other side of the world is giving away free knowledge through what youngsters call "the internets".
