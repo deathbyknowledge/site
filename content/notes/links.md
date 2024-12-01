@@ -14,3 +14,4 @@ Ugh... I just need a place to track all the links I save. Otherwise they eventua
 
 ## Deep learning literature
 - [FineWeb](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1)
+- [Dive into Deep Learning](https://d2l.a)
