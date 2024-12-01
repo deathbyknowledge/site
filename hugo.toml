@@ -1,7 +1,7 @@
 baseURL = 'https://deathbyknowldge.com/'
 languageCode = 'en-us'
-title = "Steve James's website"
-copyright = 'Steve James' # Used in the footer copyright mention.
+title = "Death By Knowledge"
+copyright = 'Caise P' # Used in the footer copyright mention.
 enableRobotsTXT = false # IMPORTANT: set to true if you want to use the theme's genAI/LLM web crawler blocking feature.
 
 [module]
@@ -44,3 +44,5 @@ enableRobotsTXT = false # IMPORTANT: set to true if you want to use the theme's 
         block = true
 [params]
   math = true
+  [params.meta]
+    favicon = false
