@@ -15,7 +15,7 @@ Also, if you haven't seen _The Matrix_ (1999), this is 100% what the movie is ab
 ## Square the matrix, because why not.
 Our matrix is \(\bm{A} = \begin{bmatrix} 0 & 1 \\ 1 & 1 \end{bmatrix}\). You might not know it yet, but it's a very interesting matrix.
 
-Let's compute \(\bm{A}^2\) explictly
+Let's compute \(\bm{A}^2\) explicitly
 
 $$
 \begin{align*}
@@ -87,7 +87,7 @@ $$
 \end{align*}
 $$
 
-Woah! Is that following the fibonacci sequence? You bet your ass it is. We can say that for \(n \in \mathbb{R}, n > 0\)
+Woah! Is that following the fibonacci sequence? You bet your ass it is. We can say that for \(n \in \mathbb{N}, n > 0\)
 
 $$
 \begin{align*}
@@ -148,7 +148,7 @@ $$
 
 From this we derive that that \((\bm{A} - \lambda\bm{I})\) collapses \(\bm{v}\) by at least one dimension. This is to say, by definition, that the determinant of \((\bm{A} - \lambda\bm{I})\) is 0.
 
-We can now susbstitue our values of \(\bm{A}\) and expand the determinant
+We can now substitute our values of \(\bm{A}\) and expand the determinant
 
 $$
 \begin{align*}
