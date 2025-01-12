@@ -6,12 +6,18 @@ title = 'Books'
 
 List of books that are in my collection. Not ranked in any particular order but grouped by the year I read them since I started tracking.
 
+# 2025
+- [ ] **Project Hail Mary** by Andy Weir.
+- [ ] **Snow Crash** by Neal Stephenson.
+- [ ] **Neuromancer** by William Gibson.
+- [ ] **Something Deeply Hidden** by Sean Carroll.
+- [ ] **Calculus for the Practical Man** by J.E. Thompson.
 # 2024
-- [ ] **The Fall of Hyperion** by Dan Simmons.
+- [x] **The Fall of Hyperion** by Dan Simmons.
 - [x] **Hyperion** by Dan Simmons.
 - [x] **The Martian** by Andy Weir.
-- [ ] **Consider Phlebas** by Iain Banks. <-- Current
-- [ ] **The Hitchhiker's Guide To The Galaxy** by Douglas Adams. 
+- [x] **Consider Phlebas** by Iain Banks.
+- [x] **The Hitchhiker's Guide To The Galaxy** by Douglas Adams.
 - [x] **Permutation City** by Greg Egan. 
 - [x] **The Theoretical Minimum: Quantum Mechanics** by Leonard Susskind. 
 - [x] **The Theoretical Minimum: Classical Mechanics** by Leonard Susskind. 
