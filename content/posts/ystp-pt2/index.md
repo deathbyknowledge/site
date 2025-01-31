@@ -4,7 +4,7 @@ draft = false
 title = 'YSTP: Cloudflare Workers and Durable Objects tutorial (Pt. 2)'
 +++
 
-This is a continuation of {{< backlink ystp-pt1 >}}. Make sure you read that first.
+This is a continuation of {{< backlink "ystp-pt1" >}}. Make sure you read that first.
 
 # Requirements
 In order to follow along the tutorial and run the project locally, you'll just need [Node.js](https://developers.cloudflare.com/workers/get-started/guide/#prerequisites). 
@@ -17,7 +17,7 @@ Let's get down to business. This part is pretty straightforward, you just need t
 npm create cloudflare@latest -- ystp
 ```
 
-In the prompts just pick the following:
+In the prompts, just pick the following:
 - `What would you like to start with?` -> **Hello World Example**
 - `Which template would you like to use?` -> **Hello World Worker Using Durable Objects**
 - `Which language do you want to use?` -> **TypeScript** (be civil)
@@ -161,7 +161,7 @@ We can now update the **DO** to handle the 2 requests and accept the WebSocket c
 
 Cool. This code is quite simple too but let me go over it. We're getting the `client` and `server` side of the WebSocket connection.
 
-We can then accept the server side of the connection with `this.ctx.acceptWebSocket` and can pass in an optional array of tags we want to add to this connection. You'll see why this is important shortly.
+We can then accept the server side of the connection with `this.ctx.acceptWebSocket` and can pass in an optional array of tags we want to add to this connection. You'll see why this is important shortly .
 
 Once we've accepted the server side of the connection we "return" the client side and we can consider it established.
 
@@ -194,4 +194,12 @@ Since we tagged the connections when accepting them, we can tell them apart. We 
 
 # Testing the relay
 And that's pretty much it. We should have a working relay, let's try it out. You can use any WebSocket client you want (or write the code yourself) but I'll use a browser version so it nicely fits in a screenshot 😇.
+![relay-test-1](relay-test-1.png)
+
+You can see both clients were able to establish a connection and send messages that the other party received. All relayed by the **DO**.
+
+# Building YSTP
+We now have some solid foundations for what we want to do. There are some tricky concepts with what we've done so I'll leave it here so you can play around and I'll start implementing **YSTP** in part 3 of the series.
+
+See ya then!
 
