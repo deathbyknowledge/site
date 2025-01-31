@@ -86,7 +86,7 @@ So our protocol will follow these steps:
 ![step10](step10.png)
 
 ## Hold on... what about the Cloudflare part?
-Well spotted, astute reader. As you might be expecting, we won't require an actual server to build our relay. Instead we'll build it on top of [Durable Objetcs](https://developers.cloudflare.com/durable-objects/) which, contrary to standard serverless technologies, allows us to have stateful code and even hibernate WebSocket connections, making it a great fit for our use case (hibernating is good because if we were to be charged for every second our **relay** had **active** connections, we wouldn't get very far with my budget).
+Well spotted, astute reader. As you might be expecting, we won't require an actual server to build our relay. Instead we'll build it on top of [Durable Objects](https://developers.cloudflare.com/durable-objects/) which, contrary to standard serverless technologies, allows us to have stateful code and even hibernate WebSocket connections, making it a great fit for our use case (hibernating is good because if we were to be charged for every second our **relay** had **active** connections, we wouldn't get very far with my budget).
 
 Of course, Cloudflare will provide us with an endpoint to our Worker and Durable Object that will be publicly accessible, so it already covers all our requirements!
 
