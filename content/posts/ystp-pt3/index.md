@@ -2,6 +2,7 @@
 date = '2025-02-01T10:01:07+01:00'
 draft = false
 title = 'YSTP: Cloudflare Workers and Durable Objects tutorial (Pt. 3)'
+summary = " "
 +++
 
 This is the last part of the **YSTP** series, make sure you've read {{< backlink "ystp-pt2" "part 2" >}} and {{< backlink "ystp-pt3" "part 3" >}}. Make sure you read the other entries first.

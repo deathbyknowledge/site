@@ -3,6 +3,7 @@ date = '2024-12-07T09:25:04+01:00'
 draft = false
 title = 'Applying eigendecomposition'
 tags = ['math', 'linear algebra', 'algorithms', 'software']
+summary = " "
 +++
 In my previous post {{< backlink "eigendecomposition" >}} I shared one way to intuitively think about **eigendecomposition**. Here, I'll show its applications _and_ how to slay your programming interview.
 
