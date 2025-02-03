@@ -12,7 +12,7 @@ This was written with goal of making the content educational and not provided to
 {{< /admonition >}}
 
 # Requirements
-In order to follow along the tutorial and run the project{{< sidenote >}}A draft repository can be found <a href="https://github.com/deathbyknowledge/ystp">here</a>.{{</ sidenote >}} locally, you'll just need [Node.js](https://developers.cloudflare.com/workers/get-started/guide/#prerequisites). 
+In order to follow along the tutorial and run the project{{< sidenote >}}A draft repository can be found <a target="_blank" href="https://github.com/deathbyknowledge/ystp">here</a>.{{</ sidenote >}} locally, you'll just need [Node.js](https://developers.cloudflare.com/workers/get-started/guide/#prerequisites). 
 
 If you want to **deploy your own**, you'll need a Cloudflare account with the **Workers Paid** plan (5$/mo) as Durable Objects are only available then. Still, great deal.
 

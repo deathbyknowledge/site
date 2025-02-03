@@ -5,7 +5,7 @@ title = 'YSTP: Cloudflare Workers and Durable Objects tutorial (Pt. 3)'
 summary = " "
 +++
 
-This is the last part of the **YSTP** series, make sure you've read {{< backlink "ystp-pt2" "part 2" >}} and {{< backlink "ystp-pt3" "part 3" >}}. Make sure you read the other entries first.
+This is the last part of the **YSTP** series, make sure you've read {{< backlink "ystp-pt1" "part 1" >}} and {{< backlink "ystp-pt2" "part 2" >}}. Make sure you read the other entries first.
 
 # Recap
 We left off last time with a working relay. Let's set it up so we can build the file sharing as we showed.
@@ -109,7 +109,7 @@ app.get('/send', (c) => {
 
 Perfect, we can now generate unique codes for every **sender**. Mind you, the **sender** has no idea of what code was generated, so we must send it back from the **DO** in a message.
 
-There is one small caveat here. From inside the **DO** we _can_ access its own id but **not** the `name` it might've been given{{< sidenote >}}<a>https://community.cloudflare.com/t/how-can-i-know-the-name-of-a-durable-object-within-the-object/290384/2</a>{{</ sidenote >}}.
+There is one small caveat here. From inside the **DO** we _can_ access its own id but **not** the `name` it might've been given{{< sidenote >}}<a target="_blank" href="https://community.cloudflare.com/t/how-can-i-know-the-name-of-a-durable-object-within-the-object/290384/2">Context</a>{{</ sidenote >}}.
 
 No biggie though, we'll just add it as a header in the request before passing it on to the **DO**.
 
