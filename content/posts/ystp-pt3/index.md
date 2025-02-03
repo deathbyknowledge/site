@@ -4,7 +4,7 @@ draft = false
 title = 'YSTP: Cloudflare Workers and Durable Objects tutorial (Pt. 3)'
 +++
 
-This is a continuation of {{< backlink "ystp-pt2" >}}. Make sure you read the other entries first.
+This is the last part of the **YSTP** series, make sure you've read {{< backlink "ystp-pt2" "part 2" >}} and {{< backlink "ystp-pt3" "part 3" >}}. Make sure you read the other entries first.
 
 # Recap
 We left off last time with a working relay. Let's set it up so we can build the file sharing as we showed.

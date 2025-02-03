@@ -4,10 +4,14 @@ draft = false
 title = 'YSTP: Cloudflare Workers and Durable Objects tutorial (Pt. 2)'
 +++
 
-This is a continuation of {{< backlink "ystp-pt1" >}}. Make sure you read that first.
+This is the second part of the **YSTP** series. Make sure you {{< backlink "ystp-pt1" "read part 1 here." >}}.
+
+{{< admonition type="warning" >}}
+This was written with goal of making the content educational and not provided to be production-ready as is. Assess at your own risk.
+{{< /admonition >}}
 
 # Requirements
-In order to follow along the tutorial and run the project locally, you'll just need [Node.js](https://developers.cloudflare.com/workers/get-started/guide/#prerequisites). 
+In order to follow along the tutorial and run the project{{< sidenote >}}A draft repository can be found <a href="https://github.com/deathbyknowledge/ystp">here</a>.{{</ sidenote >}} locally, you'll just need [Node.js](https://developers.cloudflare.com/workers/get-started/guide/#prerequisites). 
 
 If you want to **deploy your own**, you'll need a Cloudflare account with the **Workers Paid** plan (5$/mo) as Durable Objects are only available then. Still, great deal.
 
@@ -199,7 +203,7 @@ And that's pretty much it. We should have a working relay, let's try it out. You
 You can see both clients were able to establish a connection and send messages that the other party received. All relayed by the **DO**.
 
 # Building YSTP
-We now have some solid foundations for what we want to do. There are some tricky concepts with what we've done so I'll leave it here so you can play around and I'll start implementing **YSTP** in part 3 of the series.
+We now have some solid foundations for what we want to do. There are some tricky concepts with what we've done so I'll leave it here so you can play around and I'll start implementing **YSTP** in {{< backlink "ystp-pt3" "part 3" >}} of the series.
 
 See ya then!
 
