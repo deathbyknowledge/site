@@ -3,10 +3,33 @@ languageCode = 'en-us'
 title = "Death By Knowledge"
 copyright = 'Caise P' # Used in the footer copyright mention.
 enableRobotsTXT = false # IMPORTANT: set to true if you want to use the theme's genAI/LLM web crawler blocking feature.
+# Show content graph for single notes and posts.
+# Default: true
+showGraph = false
+
+# Author details for the JSON-LD structured data.
+[params.author]
+  name = 'Caise P.'
+  email = 'me@deathbyknowledge.com'
 
 [module]
   [[module.imports]]
     path = "github.com/michenriksen/hugo-theme-til"
+
+
+[params.footer]
+  # Specify the Creative Commons license to apply to your content.
+  # Options: `by`, `by_sa`, `by_nc`, `by_nc_sa`, `by_nd`, `by_nc_nd`, `zero`, `none`
+  # Learn more at https://creativecommons.org/share-your-work/cclicenses/
+  # Default: none
+  creativeCommonsLicense = 'by_sa'
+  showCreativeCommonsIcons = false
+
+  # Homepage setup
+[params.home]
+  # Set how many recent blog posts to show.
+  # Default: 3
+  recentPostsLimit = 5
 
 [outputs]
   home = ['html']
@@ -22,10 +45,6 @@ enableRobotsTXT = false # IMPORTANT: set to true if you want to use the theme's 
     name = 'Posts'
     pageRef = '/posts'
     weight = 30
-  [[menus.main]]
-    name = 'Graph'
-    pageRef = '/graph'
-    weight = 40
 
 [markup]
   [markup.highlight]
