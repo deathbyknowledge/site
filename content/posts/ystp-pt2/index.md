@@ -28,7 +28,7 @@ In the prompts, just pick the following:
 - `Which language do you want to use?` -> **TypeScript** (be civil)
 - `Do you want to deploy your application?` -> **No** (be civil x2)
 
-After this you should have a starting project ready to give it a go. It's easy to run it locally, so leave a terminal running by running:
+After this you should have a starting project ready to give it a go. It's easy to run it locally, so leave a terminal running with:
 ```sh
 cd ystp
 npx wrangler dev
