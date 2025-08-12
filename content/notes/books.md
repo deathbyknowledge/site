@@ -9,9 +9,9 @@ List of books that are in my collection. Not ranked in any particular order but 
 # 2025
 - [ ] **Project Hail Mary** by Andy Weir.
 - [ ] **Snow Crash** by Neal Stephenson.
-- [ ] **Neuromancer** by William Gibson.
-- [ ] **Something Deeply Hidden** by Sean Carroll.
-- [ ] **Calculus for the Practical Man** by J.E. Thompson.
+- [x] **Neuromancer** by William Gibson.
+- [x] **Something Deeply Hidden** by Sean Carroll.
+- [x] **Calculus for the Practical Man** by J.E. Thompson.
 # 2024
 - [x] **The Fall of Hyperion** by Dan Simmons.
 - [x] **Hyperion** by Dan Simmons.
