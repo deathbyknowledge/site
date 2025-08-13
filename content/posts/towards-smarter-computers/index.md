@@ -26,11 +26,12 @@ I hear you already "NOO YOU CAN'T JUST GIVE UNSANDBOXED ACCESS TO YOUR COMPUTER"
 
 A lot of what we're trying to build into "personal agents" is already provided in personal computers (Unix). In fact, we spent A LOT of time getting that right. So why not re-use it to make computers _easier_ to use? (I am not saying **2025 is the year of agents AND desktop Linux**, I promise).
 - "find that resume I wrote late last year and put it in my home folder" (pure `find` and `mv`)
-- "make sure we backup /Documents every week" (`tar`, `cron` and `aws-cli`?)
 - "make a dataset reader for /mydataset.jsonl, serve it and open it in my browser" (`echo`, `python`, `open`)
+- "make sure we backup /Documents every week" (`tar`, `cron` and `rclone`)
 - "woah chrome just crashed, can you find out why?" (`find`, `tail`, `grep`, etc. You get the idea)
 
-I don't want to open Chat apps for that though, I just want to be able to spawn "smart processes" and let them do their {{< sidenote thing >}}With some guardrails and interface, ofc, but you get the point{{</ sidenote >}}. Also, for production workflows: - You maintain an old af app that randomly breaks and it's a hassle to debug? Save hours by automatically spawning one of these to do a first round of debugging and hopefully fixing. Otherwise let it just write down its findings and alert.
+I don't want to open Chat apps for that though, I just want to be able to spawn "smart processes" and let them do their {{< sidenote thing >}}With some guardrails and interface, ofc, but you get the point{{</ sidenote >}}. Also, for production workflows:
+- You maintain an old af app that randomly breaks and it's a hassle to debug? Save hours by automatically spawning one of these to do a first round of debugging and hopefully fixing. Otherwise let it just write down its findings and alert.
 - Huge K8s cluster? I haven't heard a single person that enjoys ssh-ing into clusters or pods to debug some of this stuff, either we're automating devops or making cool "smart probes". This can save a great deal of time!
 
 If you're building agents, you know how painful it is to model your tools. If you make your models converge into native shell users, you can model your tools as CLIs (which we've done for years) and have the model use them.
