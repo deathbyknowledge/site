@@ -1,12 +1,15 @@
 +++
 date = '2025-08-12T06:48:59+01:00'
 draft = false
-title = 'Towards smarter computers: Training Small Models to Use the Terminal'
+title = 'Towards Smarter Computers: Training Small Models to Use the Terminal'
 tags = ['software', 'rl', 'data']
 +++
 # TL;DR
-- I've put together a sandboxing environment to train shell agents: [repo](https://github.com/deathbyknowledge/sos)  
-- 14k shell task dataset for training on [HF](https://huggingface.co/datasets/deathbyknowledge/shell-tasks)
+I bring you:
+- Sandboxing environment to train shell agents: [repo](https://github.com/deathbyknowledge/sos)  
+- A 14k shell task dataset for training on [HF](https://huggingface.co/datasets/deathbyknowledge/shell-tasks)
+- Synthetic data generation pipeline to generate customizable task datasets
+- Batteries-included script to run RL with the above and your model of choice
 
 # Intro
 Earlier this year I started messing more with "agents", so much more that it ended up changing what I do at work (cool).
